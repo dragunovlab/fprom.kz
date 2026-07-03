@@ -1,0 +1,11 @@
+# Large database dumps (use git LFS or manual backup)
+*.sql
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temp / generated files
+*.log
+tmp/
