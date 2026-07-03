@@ -54,20 +54,21 @@
 - [x] robots.txt — Host без www, Disallow, Crawl-delay
 - [x] 301 www→non-www в index.php
 - [x] Sitemap — исключены служебные пути
-- [x] Главная — meta_title/description
+- [x] Главная — meta_title/description/h1 профессионально переписаны (ключевой запрос + CTA)
 - [x] kontakty2 — visible=0
 - [x] Ежедневный бэкап БД 03:00
 - [x] 53 URL-дубля категорий исправлены + 301
 - [x] 27 конкатенированных URL исправлены + 301 (v0.4)
 - [x] 15 доп. битых URL исправлены (tripled/dup segments) + 301 (v0.8)
 - [x] cat_redirect_map.php — 95 редиректов
+- [x] index.php — 301 редиректы работают и по slug, и по /catalog/slug
 - [x] Ссылки на старые домены удалены с /o-kompanii, /oplata
 - [x] SEO-описания для 483/483 категорий
 - [x] Meta-descriptions: 347 категорий + 1908 продуктов + 21 страница (обновлено)
 - [x] Title-теги: 101 страница (52 категории + 40 товаров + 9 страниц)
 - [x] H1: 78 фиксов (70 дублей + 8 missing)
 - [x] /contact — включён (visible=1), отдаёт 200
-- [x] Git: 8 коммитов, теги v0.0–v0.8, GitHub remote
+- [x] Git: 9 коммитов, теги v0.0–v0.8 + v0.8-redirect-slug-fix, GitHub remote
 
 ## Приоритеты (дальше)
 1. **Регулярный ре-аудит** (Screaming Frog раз в месяц) для контроля
