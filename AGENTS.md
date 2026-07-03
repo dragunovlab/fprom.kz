@@ -38,25 +38,39 @@
 - [x] AGENTS.md с правилами работы
 
 ## Screaming Frog Audit (03.07.2026, internal_all.csv)
-- **Всего URL**: 492 (491×200, 1×404 — /contact)
-- **Title**: 4 missing, ~150 short (<20 chars), 54 long (>70 chars)
-- **Meta Description**: 5 missing, **321 short (<100 chars)**, 40 long (>170), 8 truncated (...)
-- **H1**: 12 missing; массовые дубли (6× одинаковый H1, 4×, 3× и т.д.)
-- **Duplicate titles**: множественные (6×, 4×, 3× и т.д.)
-- **Битые URL (30 шт.)**: конкатенированные названия в URL (nasosybytovyenasosy..., oborudovaniekarernyj..., ustanovkigorizont..., bytovyenasosy, katkit...)
-- **Canonical**: 3 страницы без canonical
-- **Тонкий контент**: 0 страниц <100 слов (хорошо)
-- **Статические страницы**: /contact (404/0 слов), /faq (0 desc), /sertifikaty (0 desc), /oplata (28 desc), /o-kompanii (29 desc)
+- **Всего URL**: 492 (491×200, 1×404 — /contact — ИСПРАВЛЕН)
+- **Title**: 101 коротких/пустых title — ИСПРАВЛЕНЫ (v0.5)
+- **Meta Description**: 321 коротких + 1908 продуктов + 21 страница — ИСПРАВЛЕНЫ (v0.5)
+- **H1**: 78 дублей/пустых name_h1 — ИСПРАВЛЕНЫ (v0.6)
+- **Битые URL (27 шт.)**: конкатенированные названия — ИСПРАВЛЕНЫ (v0.4)
+- **Canonical**: 0 страниц без canonical ✅ (только /contact был 404, теперь 200)
+- **Микроразметка**: Product, BreadcrumbList, Organization, WebSite — уже были в шаблонах ✅
+- **hreflang**: ru единственный активный язык, en/uk выкл. kk не добавлен — нет контента на казахском
+- **Тонкий контент**: 0 страниц <100 слов ✅
+- **Статические страницы**: meta_descriptions и title заполнены для всех ✅
 
-## Приоритеты (Next Steps)
-1. **Высокий**: Исправить 30 битых URL категорий — перегенерация URL + 301 редиректы (как делали с 53 дублями)
-2. **Высокий**: Meta-descriptions для 321 страницы с короткими описаниями (<100 chars) — шаблонная генерация
-3. **Высокий**: Title-теги для ~150 страниц с короткими title (<20 chars)
-4. **Средний**: Исправить 12 missing H1 + убрать дубли H1/title
-5. **Средний**: Микроразметка Product / BreadcrumbList для товаров
-6. **Средний**: hreflang kk (сайт .kz — только ru)
-7. **Низкий**: /contact — создать страницу или 301 на /o-kompanii
-8. **Низкий**: canonical на 3 страницах без него
+## Done (всего)
+- [x] robots.txt — Host без www, Disallow, Crawl-delay
+- [x] 301 www→non-www в index.php
+- [x] Sitemap — исключены служебные пути
+- [x] Главная — meta_title/description
+- [x] kontakty2 — visible=0
+- [x] Ежедневный бэкап БД 03:00
+- [x] 53 URL-дубля категорий исправлены + 301
+- [x] 27 конкатенированных URL исправлены + 301
+- [x] cat_redirect_map.php — 79 редиректов
+- [x] Ссылки на старые домены удалены с /o-kompanii, /oplata
+- [x] SEO-описания для 483/483 категорий
+- [x] Meta-descriptions: 347 категорий + 1908 продуктов + 21 страница (обновлено)
+- [x] Title-теги: 101 страница (52 категории + 40 товаров + 9 страниц)
+- [x] H1: 78 фиксов (70 дублей + 8 missing)
+- [x] /contact — включён (visible=1), отдаёт 200
+- [x] Git: 6 коммитов, теги v0.0–v0.6, GitHub remote
+
+## Приоритеты (дальше)
+1. **Регулярный ре-аудит** (Screaming Frog раз в месяц) для контроля
+2. **Контент-план** для статических страниц (/o-kompanii, /oplata, /faq)
+3. **Мониторинг позиций Google** по ключевым запросам
 
 ## Key Decisions
 - Редирект www в index.php (не nginx)
