@@ -82,4 +82,34 @@ $cat_redirects = [
     'nasosy-vihrevyenasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody' => 'nasosy-vikhrevye-nasosy-pogruzhnye-dlya-chistoy-i-slabo-zagryaznyonnoy-vody',
     'nasosy-samovsasyvayuschienasosy-samovsasyvayuschie' => 'nasosy-samovsasyvayushchie',
     'nasosy-skvazhinnyenasosy-vintovyenasosy-skvazhinnye' => 'nasosy-skvazhinnye-nasosy-vintovye',
+
+    'motopompy-benzinovyemotopompy-benzinovyemotopompy-benzinovye' => 'motopompy-benzinovye',
+
+    'motopompy-dizelnyemotopompy-dizelnyemotopompy-dizelnye' => 'motopompy-dizelnye',
+
+    'tsirkulyatsionnye-nasosy-nasosy-bytovye-nasosy-tsirkulyatsionnye' => 'tsirkulyatsionnye-nasosy-bytovye-nasosy-tsirkulyatsionnye',
+
+    'tsirkulyatsionnye-nasosy-nasosy-bytovye' => 'tsirkulyatsionnye-nasosy-bytovye',
+
+    'gorno-shakhtnye-oborudovaniekarernyy-samosval' => 'gorno-shakhtnye-oborudovanie-karernyy-samosval',
+
+    'gorno-shahtnye-oborudovaniepolivochnaya-mashina' => 'gorno-shakhtnye-oborudovanie-polivochnaya-mashina',
+
+    'gorno-shahtnye-oborudovaniedrobilka' => 'gorno-shakhtnye-oborudovanie-drobilka',
+
+    'gorno-shahtnye-oborudovaniegrohoty' => 'gorno-shakhtnye-oborudovanie-grokhoty',
+
+    'gorno-shahtnye-oborudovaniegrohotydrobilka' => 'gorno-shakhtnye-oborudovanie-grokhoty-drobilka',
+
+    'tsirkulyatsionnye-nasosy-nasosy-tsirkulyatsionnye' => 'tsirkulyatsionnye-nasosy-tsirkulyatsionnye',
+
+    'kanalizatsionnye-nakopitelnye-nasosnye-stantsiinasosy-izmelchiteli-stantsii-kanalizatsionnye' => 'kanalizatsionnye-nakopitelnye-nasosnye-stantsii-nasosy-izmelchiteli-stantsii-kanalizatsionnye',
+
+    'burovye-ustanovkigorizontalno-napravlennyy-bur' => 'burovye-ustanovki-gorizontalno-napravlennyy-bur',
+
+    'burovye-ustanovkirotornaya-burovaya-ustanovka' => 'burovye-ustanovki-rotornaya-burovaya-ustanovka',
+
+    'gorno-shakhtnye-oborudovaniekarernyy-ekskavator' => 'gorno-shakhtnye-oborudovanie-karernyy-ekskavator',
+
+    'ventilyatory-osevye-vok-vos-vo-vovventilyatory-osevye-vo' => 'ventilyatory-osevye-vok-vos-vo-vov',
 ];
