@@ -1,0 +1,1 @@
+<?php echo "OK:" . phpversion() . ":" . ini_get('max_execution_time') . ":" . ini_get('memory_limit');

@@ -1,0 +1,185 @@
+﻿==========================================
+     SCREAMING FROG AUDIT - fprom.kz
+==========================================
+Total URLs crawled: 492
+HTML pages: 474
+
+=== STATUS CODES ===
+  200: 491
+  404: 1
+
+=== TITLES ===
+Missing title: 2
+Short title (<20 chars): 150
+Long title (>70 chars): 54
+
+Short titles sample:
+  [14] 'Трансформаторы' -> https://fprom.kz/transformatory
+  [13] 'ТЭНы к котлам' -> https://fprom.kz/teny-k-kotlam
+  [12] 'Бетононасосы' -> https://fprom.kz/betononasosy-1
+  [19] 'Вилочные погрузчики' -> https://fprom.kz/vilochnye-pogruzchiki-lonking
+  [5] 'Сгоны' -> https://fprom.kz/sgony
+  [12] 'Стационарные' -> https://fprom.kz/statsionarnye
+  [16] 'Контейнера жилые' -> https://fprom.kz/kontejnera-zhilye
+  [6] 'Станки' -> https://fprom.kz/stanki
+  [18] 'landing-Автокран г' -> https://fprom.kz/landing-avtokran-g
+  [15] 'Винтовые насосы' -> https://fprom.kz/vintovye-nasosy
+  [18] 'Карьерные грейдера' -> https://fprom.kz/karernye-grejdera
+  [19] 'Сварочные инверторы' -> https://fprom.kz/svarochnye-invertory
+  [7] 'Ниппели' -> https://fprom.kz/nippeli
+  [15] 'Выходные фланцы' -> https://fprom.kz/vyhodnye-flantsy
+  [6] 'Отзывы' -> https://fprom.kz/otzyvy
+  [6] 'Гравий' -> https://fprom.kz/gravij
+  [16] 'Насосы фонтанные' -> https://fprom.kz/nasosy-fontannye
+  [13] 'НОВОСТИ/Fprom' -> https://fprom.kz/all-posts
+  [13] 'Краны шаровые' -> https://fprom.kz/krany-sharovye
+  [13] 'Котлы газовые' -> https://fprom.kz/kotly-gazovye
+  [7] 'Бойлеры' -> https://fprom.kz/bojlery
+  [14] 'Фрезы дорожные' -> https://fprom.kz/frezy-dorozhnye
+  [18] 'INNORED и INNOVERT' -> https://fprom.kz/innored-i-innovert
+  [18] 'Насосы шестерённые' -> https://fprom.kz/nasosy-shesterennye
+  [12] 'Прочие серии' -> https://fprom.kz/prochie-serii-4
+  [12] 'Прочие серии' -> https://fprom.kz/prochie-serii-1
+  [17] 'Скважинные насосы' -> https://fprom.kz/skvazhinnye-nasosy
+  [10] 'СФОЦ КЕЛЕТ' -> https://fprom.kz/sfots-kelet
+  [17] 'Клеевые дисперсии' -> https://fprom.kz/kleevye-dispersii
+  [18] 'Бассейновые насосы' -> https://fprom.kz/bassejnovye-nasosy
+
+Long titles sample:
+  [82] https://fprom.kz/avtomaticheskie-odnonasosnye-ustanovki-podderzhaniya-davleniya
+  [124] https://fprom.kz/promyshlennye-reduktorykomplektuyuschie-dlya-reduktorovinnovertflanets-80-90-b5-200mm-k-reduktoru-innovert-063
+  [74] https://fprom.kz/chervyachnye-reduktory
+  [109] https://fprom.kz/ustrojstvo-plavnogo-puska-upp-ssi-115230-04-instart
+  [122] https://fprom.kz/promyshlennye-reduktorykomplektuyuschie-dlya-reduktorovinnovertflanets-71-b5-160-mm-k-reduktoru-innovert-063
+  [92] https://fprom.kz/preobrazovatel-chastoty-nvf2g-55ts4
+  [100] https://fprom.kz/avtomaticheskie-odnonasosnye-ustanovki-podderzhaniya-davleniyanasosy-dlya-povysheniya-davleniya-vody-v-dome
+  [71] https://fprom.kz/generatory
+  [120] https://fprom.kz/promyshlennye-reduktorykomplektuyuschie-dlya-reduktorovinnovertflanets-71-b5-160mm-k-reduktoru-innover-040
+  [111] https://fprom.kz/nasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-izmelchiteli-stantsii-kanalizatsionnyenasosy-pogruzhnye-kanalizatsionnyenasosy-pogruzhnye-dlya-gryaznoj-vody
+  [99] https://fprom.kz/preobrazovatel-chastoty-nvf2g-15ts4-15kvt
+  [123] https://fprom.kz/promyshlennye-reduktorykomplektuyuschie-dlya-reduktorovinnovertflanets-90-b14-140mm-k-reduktoru-innovert-063
+  [76] https://fprom.kz/pogruzchiki-karernye
+  [73] https://fprom.kz/asfaltoukladchiki
+  [97] https://fprom.kz/smazochno-zapravochnoe-oborudovanie
+  [112] https://fprom.kz/avtomaticheskie-nasosy-izmelchitelinasosy-izmelchiteli-stantsii-kanalizatsionnyenasosy-pogruzhnye-kanalizatsionnye
+  [96] https://fprom.kz/elektrodvigatel-200-m6-im-1001-221000
+  [122] https://fprom.kz/promyshlennye-reduktorykomplektuyuschie-dlya-reduktorovinnovertflanets-63-b14-90mm-k-reduktoru-innovert-050
+  [71] https://fprom.kz/nasosnye-stantsii-i-avtomaticheskie-ustanovki
+  [123] https://fprom.kz/promyshlennye-reduktorykomplektuyuschie-dlya-reduktorovinnovertflanets-80-b14-120mm-k-reduktoru-innovert-063
+
+=== META DESCRIPTIONS ===
+Missing desc: 3
+Short desc (<50 chars): 289
+Long desc (>170 chars): 40
+Truncated with ... : 8
+
+=== BROKEN URLs (concatenated) ===
+Count: 30
+  https://fprom.kz/nasosy-bytovyenasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody
+  https://fprom.kz/gorno-shahtnye-oborudovaniekarernyj-ekskavator
+  https://fprom.kz/nasosy-mnogostupenchatye-gorizontalnyenasosy-samovsasyvayuschie
+  https://fprom.kz/tsirkulyatsionnye-nasosy-nasosy-bytovye
+  https://fprom.kz/gorno-shahtnye-oborudovaniekarernyj-samosval
+  https://fprom.kz/tsirkulyatsionnye-nasosy-nasosy-bytovye-nasosy-tsirkulyatsionnye
+  https://fprom.kz/nasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-izmelchiteli-stantsii-kanalizatsionnyenasosy-pogruzhnye-kanalizatsionnyenasosy-pogruzhnye-dlya-gryaznoj-vody
+  https://fprom.kz/nasosy-zhidkostno-koltsevyenasosy-samovsasyvayuschie
+  https://fprom.kz/nasosy-bytovyenasosy-skvazhinnyenasosy-skvazhinnye
+  https://fprom.kz/avtomaticheskie-nasosy-izmelchitelinasosy-izmelchiteli-stantsii-kanalizatsionnyenasosy-pogruzhnye-kanalizatsionnye
+  https://fprom.kz/nasosy-mnogostupenchatye-gorizontalnyenasosy-samovsasyvayuschienasosy-samovsasyvayuschie
+  https://fprom.kz/nasosy-bytovyenasosy-vihrevyenasosy-samovsasyvayuschienasosy-vihrevyenasosy-samovsasyvayuschie
+  https://fprom.kz/burovye-ustanovkigorizontalno-napravlennyj-bur
+  https://fprom.kz/nasosy-mnogostupenchatye-vertikalnyenasosy-mnogostupenchatye-vertikalnye
+  https://fprom.kz/nasosy-mnogostupenchatye-vertikalnyenasosy-mnogostupenchatye-vertikalnyenasosy-mnogostupenchatye-vertikalnye
+  https://fprom.kz/nasosy-bytovyenasosy-rotorno-shibernye
+  https://fprom.kz/nasosy-pogruzhnye-kanalizatsionnyenasosy-pogruzhnye-dlya-gryaznoj-vody
+  https://fprom.kz/nasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vodynasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody
+  https://fprom.kz/nasosy-bytovyenasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody
+  https://fprom.kz/tsirkulyatsionnye-nasosy-nasosy-tsirkulyatsionnye
+  https://fprom.kz/nasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody
+  https://fprom.kz/nasosy-dlya-povysheniya-davleniya-vody-v-domenasosy-samovsasyvayuschie
+  https://fprom.kz/nasosy-bytovyenasosy-vintovye
+  https://fprom.kz/nasosy-bytovyenasosy-vihrevyenasosy-vihrevye
+  https://fprom.kz/nasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody
+  https://fprom.kz/nasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-pogruzhnye-kanalizatsionnyenasosy-pogruzhnye-dlya-gryaznoj-vody
+  https://fprom.kz/nasosy-vihrevyenasosy-vihrevye
+  https://fprom.kz/nasosy-vihrevyenasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody
+  https://fprom.kz/nasosy-samovsasyvayuschienasosy-samovsasyvayuschie
+  https://fprom.kz/nasosy-skvazhinnyenasosy-vintovyenasosy-skvazhinnye
+
+=== H1 DUPLICATES (top 25) ===
+  6x: 'Прочие серии'
+  4x: 'Насосы многоступенчатые вертикальные'
+  3x: 'Насосы погружные для чистой и слабо загрязнённой воды'
+  3x: 'Насосы самовсасывающие'
+  3x: 'Гидроаккумуляторы'
+  3x: 'Поплавковые выключатели'
+  3x: 'Насосы вихревые'
+  2x: 'Насосы многоступенчатые горизонтальные'
+  2x: 'Серия КЦ2'
+  2x: 'Вентиляторы'
+  2x: 'Электроинструменты'
+  2x: 'Насосы погружные для грязной воды Насосы погружные для чистой и слабо загрязнённой воды'
+  2x: 'Промышленные редукторы'
+  2x: 'Насосные станции'
+  2x: 'Насосы погружные для грязной воды'
+  2x: 'Насосы винтовые'
+  2x: 'Циркуляционные насосы'
+  2x: 'Насосы многоступенчатые горизонтальные Насосы самовсасывающие'
+  2x: 'Насосы для повышения давления воды в доме'
+  2x: 'Насосы бытовые Насосы погружные для чистой и слабо загрязнённой воды'
+  2x: 'Бетононасосы'
+  2x: 'Насосы поверхностные с рабочим колесом открытого типа для грязной воды'
+  2x: 'Водоочистка'
+  2x: 'Низкого давления ВР 86-77'
+  2x: 'Насосы бассейновые'
+
+=== THIN CONTENT (<100 words) ===
+Count: 0
+
+=== NON-200 ===
+  404: https://fprom.kz/contact
+
+=== NO CANONICAL ===
+  https://fprom.kz/contact
+
+=== NO H1 ===
+  https://fprom.kz/dizelnaya-portovaya-tehnika
+  https://fprom.kz/ekskavatory-pogruzchiki
+  https://fprom.kz/dizelnye-pogruzchiki
+  https://fprom.kz/pogruzchiki-serii-zl
+  https://fprom.kz/pogruzchiki-serii-xc
+  https://fprom.kz/vilochnye-pogruzchiki-xcmg
+  https://fprom.kz/contact
+  https://fprom.kz/faq
+  https://fprom.kz/pogruzchiki-serii-lw
+  https://fprom.kz/vilochnye-pogruzchiki-hangcha
+
+=== DUPLICATE TITLES ===
+  6x: 'Прочие серии'
+  4x: 'Насосы многоступенчатые вертикальные'
+  3x: 'Поплавковые выключатели'
+  3x: 'Насосы погружные для чистой и слабо загрязнённой воды'
+  3x: 'Насосы самовсасывающие'
+  3x: 'Насосы вихревые'
+  3x: 'Гидроаккумуляторы'
+  2x: 'Насосы погружные для грязной воды'
+  2x: 'Серия КЦ2'
+  2x: 'Насосы многоступенчатые горизонтальные'
+  2x: 'Насосы погружные для грязной воды Насосы погружные для чистой и слабо загрязнённой воды'
+  2x: 'Насосы винтовые'
+  2x: 'Насосы бытовые Насосы погружные для чистой и слабо загрязнённой воды'
+  2x: 'Вентиляторы'
+  2x: 'Насосы многоступенчатые горизонтальные Насосы самовсасывающие'
+  2x: 'Насосы поверхностные с рабочим колесом открытого типа для грязной воды'
+  2x: 'Насосы для повышения давления воды в доме'
+  2x: 'Циркуляционные насосы'
+  2x: 'Водоочистка'
+  2x: 'Низкого давления ВР 86-77'
+  2x: 'Насосы погружные канализационные'
+  2x: 'Насосы бассейновые'
+
+=== WORDS DISTRIBUTION ===
+Min words: 0
+Max words: 1320
+Avg words: 398
+Pages with 0 words: 
