@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // Auto-generated category redirect map (2026-07-03)
 $cat_redirects = [
     'konvejernoe-oborudovanie2' => 'konveyernoe-oborudovanie',
@@ -54,4 +54,32 @@ $cat_redirects = [
     'tsirkulyatsionnye-nasosy2' => 'tsirkulyatsionnye-nasosy-1',
     'gidroakkumulyatory3' => 'gidroakkumulyatory-2',
     'poplavkovye-vyklyuchateli2' => 'poplavkovye-vyklyuchateli-1',
+
+    'nasosy-bytovyenasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody' => 'nasosy-bytovye-nasosy-pogruzhnye-dlya-chistoy-i-slabo-zagryaznyonnoy-vody',
+    'gorno-shahtnye-oborudovaniekarernyj-ekskavator' => 'gorno-shakhtnye-oborudovaniekarernyy-ekskavator',
+    'nasosy-mnogostupenchatye-gorizontalnyenasosy-samovsasyvayuschie' => 'nasosy-mnogostupenchatye-gorizontalnye-nasosy-samovsasyvayushchie',
+    'gorno-shahtnye-oborudovaniekarernyj-samosval' => 'gorno-shakhtnye-oborudovaniekarernyy-samosval',
+    'nasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-izmelchiteli-stantsii-kanalizatsionnyenasosy-pogruzhnye-kanalizatsionnyenasosy-pogruzhnye-dlya-gryaznoj-vody' => 'nasosy-pogruzhnye-dlya-gryaznoy-vody-nasosy-izmelchiteli-stantsii-kanalizatsionnye-nasosy-pogruzhnye-kanalizatsionnye',
+    'nasosy-zhidkostno-koltsevyenasosy-samovsasyvayuschie' => 'nasosy-zhidkostno-koltsevye-nasosy-samovsasyvayushchie',
+    'nasosy-bytovyenasosy-skvazhinnyenasosy-skvazhinnye' => 'nasosy-bytovye-nasosy-skvazhinnye',
+    'avtomaticheskie-nasosy-izmelchitelinasosy-izmelchiteli-stantsii-kanalizatsionnyenasosy-pogruzhnye-kanalizatsionnye' => 'avtomaticheskie-nasosy-izmelchiteli-nasosy-izmelchiteli-stantsii-kanalizatsionnye-nasosy-pogruzhnye-kanalizatsionnye',
+    'nasosy-mnogostupenchatye-gorizontalnyenasosy-samovsasyvayuschienasosy-samovsasyvayuschie' => 'nasosy-mnogostupenchatye-gorizontalnye-nasosy-samovsasyvayushchie-1',
+    'nasosy-bytovyenasosy-vihrevyenasosy-samovsasyvayuschienasosy-vihrevyenasosy-samovsasyvayuschie' => 'nasosy-bytovye-nasosy-vikhrevye-nasosy-samovsasyvayushchie',
+    'burovye-ustanovkigorizontalno-napravlennyj-bur' => 'burovye-ustanovkigorizontalno-napravlennyy-bur',
+    'nasosy-mnogostupenchatye-vertikalnyenasosy-mnogostupenchatye-vertikalnye' => 'nasosy-mnogostupenchatye-vertikalnye-2',
+    'nasosy-mnogostupenchatye-vertikalnyenasosy-mnogostupenchatye-vertikalnyenasosy-mnogostupenchatye-vertikalnye' => 'nasosy-mnogostupenchatye-vertikalnye-3',
+    'nasosy-bytovyenasosy-rotorno-shibernye' => 'nasosy-bytovye-nasosy-rotorno-shibernye',
+    'nasosy-pogruzhnye-kanalizatsionnyenasosy-pogruzhnye-dlya-gryaznoj-vody' => 'nasosy-pogruzhnye-kanalizatsionnye-nasosy-pogruzhnye-dlya-gryaznoy-vody',
+    'nasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vodynasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody' => 'nasosy-pogruzhnye-dlya-gryaznoy-vody-nasosy-pogruzhnye-dlya-chistoy-i-slabo-zagryaznyonnoy-vody',
+    'nasosy-bytovyenasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody' => 'nasosy-bytovye-nasosy-pogruzhnye-dlya-chistoy-i-slabo-zagryaznyonnoy-vody-1',
+    'nasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody' => 'nasosy-pogruzhnye-dlya-chistoy-i-slabo-zagryaznyonnoy-vody-1',
+    'nasosy-dlya-povysheniya-davleniya-vody-v-domenasosy-samovsasyvayuschie' => 'nasosy-dlya-povysheniya-davleniya-vody-v-dome-nasosy-samovsasyvayushchie',
+    'nasosy-bytovyenasosy-vintovye' => 'nasosy-bytovye-nasosy-vintovye',
+    'nasosy-bytovyenasosy-vihrevyenasosy-vihrevye' => 'nasosy-bytovye-nasosy-vikhrevye',
+    'nasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vodynasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody' => 'nasosy-pogruzhnye-dlya-gryaznoy-vody-nasosy-pogruzhnye-dlya-chistoy-i-slabo-zagryaznyonnoy-vody-1',
+    'nasosy-pogruzhnye-dlya-gryaznoj-vodynasosy-pogruzhnye-kanalizatsionnyenasosy-pogruzhnye-dlya-gryaznoj-vody' => 'nasosy-pogruzhnye-dlya-gryaznoy-vody-nasosy-pogruzhnye-kanalizatsionnye',
+    'nasosy-vihrevyenasosy-vihrevye' => 'nasosy-vikhrevye-1',
+    'nasosy-vihrevyenasosy-pogruzhnye-dlya-chistoj-i-slabo-zagryaznennoj-vody' => 'nasosy-vikhrevye-nasosy-pogruzhnye-dlya-chistoy-i-slabo-zagryaznyonnoy-vody',
+    'nasosy-samovsasyvayuschienasosy-samovsasyvayuschie' => 'nasosy-samovsasyvayushchie',
+    'nasosy-skvazhinnyenasosy-vintovyenasosy-skvazhinnye' => 'nasosy-skvazhinnye-nasosy-vintovye',
 ];
