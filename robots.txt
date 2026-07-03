@@ -1,0 +1,40 @@
+User-agent: *
+Crawl-delay: 5
+
+Allow: /catalog/
+Allow: /bestsellers
+Allow: /all-products
+Allow: /brands
+Allow: /o-kompanii
+Allow: /all-posts
+Allow: /dostavka
+Allow: /oplata
+Allow: /contact
+
+Disallow: /backend/
+Disallow: /lang_general/
+Disallow: /captcha/
+Disallow: /Smarty/
+Disallow: /api/
+Disallow: /compiled/
+Disallow: /js_libraries/
+Disallow: /vendor/
+Disallow: /config/
+Disallow: /cart
+Disallow: /wishlist
+Disallow: /search
+Disallow: /comparison
+Disallow: /order/
+Disallow: /user/
+Disallow: /backups/
+Disallow: /404
+Disallow: /*?currency_id=
+Disallow: /*?utm_
+Disallow: /*?keyword=
+Disallow: /*?page=
+Disallow: /*?filter=
+Disallow: /*?sort=
+
+Host: https://fprom.kz
+
+Sitemap: https://fprom.kz/sitemap.xml
