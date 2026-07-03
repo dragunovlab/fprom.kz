@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // WWW redirect (SEO: avoid duplicate content)
 if (isset($_SERVER['HTTP_HOST']) && preg_match('/^www\./i', $_SERVER['HTTP_HOST'])) {
@@ -13,11 +13,21 @@ if (file_exists(__DIR__ . '/cat_redirect_map.php')) {
     if (isset($cat_redirects) && !empty($_SERVER['REQUEST_URI'])) {
         $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $path = trim($path, '/');
+        $segments = explode('/', $path);
+        $lastSegment = end($segments);
+
+        $target = null;
         if (isset($cat_redirects[$path])) {
+            $target = $cat_redirects[$path];
+        } elseif (isset($cat_redirects[$lastSegment])) {
+            $target = $cat_redirects[$lastSegment];
+        }
+
+        if ($target !== null) {
             $query = parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY);
             $qs = $query ? '?' . $query : '';
             header('HTTP/1.1 301 Moved Permanently');
-            header('Location: https://fprom.kz/' . $cat_redirects[$path] . $qs);
+            header('Location: https://fprom.kz/' . $target . $qs);
             exit;
         }
     }
