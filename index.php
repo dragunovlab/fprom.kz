@@ -1,5 +1,15 @@
 ﻿<?php
 
+// Gzip compression via PHP (fallback if nginx gzip is off)
+if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'] ?? '', 'gzip') && !ob_start('ob_gzhandler')) {
+    ob_start();
+}
+
+// Security headers
+header('X-Frame-Options: SAMEORIGIN');
+header('X-Content-Type-Options: nosniff');
+header('Referrer-Policy: strict-origin-when-cross-origin');
+
 // WWW redirect (SEO: avoid duplicate content)
 if (isset($_SERVER['HTTP_HOST']) && preg_match('/^www\./i', $_SERVER['HTTP_HOST'])) {
     header('HTTP/1.1 301 Moved Permanently');

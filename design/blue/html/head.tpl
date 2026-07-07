@@ -113,7 +113,10 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    {if $noindex_nofollow}
+    {* Force noindex for pages with active filters/sort/search to prevent duplicate content *}
+    {if isset($smarty.get.filter) || isset($smarty.get.sort) || isset($smarty.get.keyword)}
+        <meta name="robots" content="noindex,follow">
+    {elseif $noindex_nofollow}
         <meta name="robots" content="noindex,nofollow">
     {elseif $noindex_follow}
         <meta name="robots" content="noindex,follow">
