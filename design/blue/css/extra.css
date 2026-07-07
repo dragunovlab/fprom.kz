@@ -1,0 +1,101 @@
+﻿/* ==========================================================================
+   EXTRA.CSS — Ultra-Premium Micro-Interactions
+   ========================================================================== */
+
+/* 1. Плавное появление контента (Cinematic Reveal on Scroll) */
+.reveal, .reveal-3d {
+  opacity: 0;
+  transform: translateY(40px) scale(0.96) rotateX(8deg);
+  filter: blur(8px);
+  transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+  will-change: transform, opacity, filter;
+  transform-style: preserve-3d;
+}
+
+.reveal.active, .reveal-3d.active {
+  opacity: 1;
+  transform: translateY(0) scale(1) rotateX(0deg);
+  filter: blur(0px);
+}
+
+/* Delay modifiers for staggered grids (handled by JS via custom properties usually, but fallback here) */
+.reveal-stagger-1 { transition-delay: 0.1s; }
+.reveal-stagger-2 { transition-delay: 0.2s; }
+.reveal-stagger-3 { transition-delay: 0.3s; }
+.reveal-stagger-4 { transition-delay: 0.4s; }
+.reveal-stagger-5 { transition-delay: 0.5s; }
+
+/* 2. Анимированный градиент на кнопках */
+.btn-glow {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-glow::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.btn-glow:hover::before {
+  left: 100%;
+}
+
+/* 3. Кастомная полоса прокрутки сверху (Scroll Progress) */
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(to right, var(--fp-primary), var(--fp-accent));
+  z-index: 9999;
+  transition: width 0.1s ease;
+}
+
+/* 4. Магнитный эффект для кнопок (базовая стилизация) */
+.magnetic {
+  display: inline-block;
+  transition: transform 0.3s var(--fp-t-snappy);
+}
+
+/* 5. Улучшенные тени для карточек */
+.premium-shadow {
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.1), 
+              0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+/* 6. Анимация для "Бегущей строки" (улучшенная) */
+.ticker-wrap {
+  background: #0b1121;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* 7. Эффект размытия при наведении на другие карточки (Focus mode) — только desktop */
+@media (hover: hover) and (pointer: fine) {
+  .product-grid:hover .product_preview:not(:hover) {
+    opacity: 0.7;
+    filter: grayscale(0.5) blur(1px);
+    transform: scale(0.98);
+  }
+}
+
+/* 8. Placeholder поисковой строки — читаемый на светлом фоне */
+.search__input::-webkit-input-placeholder,
+.search__input::-moz-placeholder,
+.search__input:-ms-input-placeholder,
+.search__input::placeholder {
+  color: #555 !important;
+  opacity: 1 !important;
+}
