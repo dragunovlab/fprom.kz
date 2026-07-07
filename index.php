@@ -1,10 +1,5 @@
 ﻿<?php
 
-// Gzip compression via PHP (fallback if nginx gzip is off)
-if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'] ?? '', 'gzip') && !ob_start('ob_gzhandler')) {
-    ob_start();
-}
-
 // Security headers
 header('X-Frame-Options: SAMEORIGIN');
 header('X-Content-Type-Options: nosniff');
