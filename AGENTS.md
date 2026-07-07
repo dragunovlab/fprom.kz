@@ -68,12 +68,14 @@
 - [x] Title-теги: 101 страница (52 категории + 40 товаров + 9 страниц)
 - [x] H1: 78 фиксов (70 дублей + 8 missing)
 - [x] /contact — включён (visible=1), отдаёт 200
-- [x] Git: 9 коммитов, теги v0.0–v0.8 + v0.8-redirect-slug-fix, GitHub remote
+- [x] Git: 10 коммитов, теги v0.0–v0.8 + v0.8-redirect-slug-fix, GitHub remote
+- [x] **Полный SEO-аудит** (v0.9): gzip, security headers, JSON-LD Product, lazy loading, noindex filters, pagination rel, aspect-ratio CLS
 
 ## Приоритеты (дальше)
 1. **Регулярный ре-аудит** (Screaming Frog раз в месяц) для контроля
 2. **Контент-план** для статических страниц (/o-kompanii, /oplata, /faq)
 3. **Мониторинг позиций Google** по ключевым запросам
+4. **Включить gzip в Plesk** (nginx) — сейчас через PHP fallback
 
 ## Key Decisions
 - Редирект www в index.php (не nginx)
