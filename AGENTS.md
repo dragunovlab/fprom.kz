@@ -74,21 +74,25 @@
 - [x] **17 битых URL продуктов** (v0.10): CSS+non-ASCII+РМ-серия — url перегенерированы, добавлены 301 редиректы
 - [x] **product_redirect_map.php** (v0.10): 301 для битых URL продуктов в index.php
 - [x] **reduktory.fprom.kz routing** (v0.10): /catalog/ → /reduktory/, удалённые продукты → 301 на серию, удалённые серии → 301 на тип
+- [x] **legacy_redirects.php** (v0.11): /products/* → 301 → /* и /catalog/* → 301 → /* (CMS перешёл на no_prefix URL)
+- [x] **Анализ GSC CSV (999 URL)** (v0.11): корневая причина 404 — смена URL-формата CMS с /products/slug на /slug
 
 ## GSC 404 Audit (08.07.2026)
-- 3490 URL в GSC 404 — разбиты на группы:
-  - **reduktory.fprom.kz**: битые шаблонные URL (timestamp-ID в слагах), удалённые продукты
-  - **www.fprom.kz**: старые URL (редирект www→non-www работает, Google сам выведет)
-  - **fprom.kz CSS-URL**: 4 продукта — починены
-  - **fprom.kz битые товары**: удалённые/переименованные продукты
-- Ожидается CSV из GSC для полного анализа
+- **999 URL** в CSV (3490 в GSC всего, экспортирована первая страница)
+- Разбивка:
+  - **fprom.kz /products/... (288)**: CMS перешёл на no_prefix, старые URL с /products/ 404 → **добавлен 301 /products/* → /*** 
+  - **fprom.kz direct slugs (504)**: URL без /products/ префикса — работают как no_prefix, но часть продуктов удалена
+  - **fprom.kz /catalog/...**: аналогично /products/ → **добавлен 301 /catalog/* → /***
+  - **www.fprom.kz (107)**: уже редиректятся (www→non-www в index.php)
+  - **reduktory.fprom.kz (98)**: починены умными 301 в v0.10 (404→серия/тип)
+- **Блокировка**: nginx кеширует старые 200 ответы для /products/* — редиректы сработают при сбросе кеша/переобходе
 
 ## Приоритеты (дальше)
-1. **Экспорт CSV из GSC** — полный список 3490 URL для массовых 301
-2. **Регулярный ре-аудит** (Screaming Frog раз в месяц) для контроля
-3. **Контент-план** для статических страниц (/o-kompanii, /oplata, /faq)
-4. **Мониторинг позиций Google** по ключевым запросам
-5. **Включить gzip в Plesk** (nginx) — сейчас через PHP fallback
+1. **Сбросить nginx кеш** (через Plesk или дождаться expiry) — активирует все 301
+2. **Экспорт полного CSV из GSC** (все 3490 URL) для финальной сверки
+3. **Регулярный ре-аудит** (Screaming Frog раз в месяц) для контроля
+4. **Контент-план** для статических страниц (/o-kompanii, /oplata, /faq)
+5. **Мониторинг позиций Google** по ключевым запросам
 
 ## Key Decisions
 - Редирект www в index.php (не nginx)
@@ -104,6 +108,7 @@
 - /fprom.kz/index.php — www→non-www + cat_redirect_map.php
 - /fprom.kz/cat_redirect_map.php — 301 на исправленные URL категорий (95 маппингов)
 - /fprom.kz/product_redirect_map.php — 301 на исправленные URL продуктов (16 маппингов)
+- /fprom.kz/legacy_redirects.php — 301 /products/* → /* и /catalog/* → /* (no_prefix)
 - /reduktory.fprom.kz/server/index.js — Node.js роутинг (301 для /catalog/ + умные редиректы 404→серия/тип)
 - /reduktory.fprom.kz/data.json — 625 продуктов редукторов
 - /fprom.kz/Okay/Helpers/SiteMapHelper.php — исключения из sitemap
