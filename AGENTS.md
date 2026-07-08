@@ -70,12 +70,25 @@
 - [x] /contact — включён (visible=1), отдаёт 200
 - [x] Git: 10 коммитов, теги v0.0–v0.8 + v0.8-redirect-slug-fix, GitHub remote
 - [x] **Полный SEO-аудит** (v0.9): gzip, security headers, JSON-LD Product, lazy loading, noindex filters, pagination rel, aspect-ratio CLS
+- [x] **CSS/HTML в URL продуктов** (v0.10): 4 продукта с border-left/padding/class-именами в url починены
+- [x] **17 битых URL продуктов** (v0.10): CSS+non-ASCII+РМ-серия — url перегенерированы, добавлены 301 редиректы
+- [x] **product_redirect_map.php** (v0.10): 301 для битых URL продуктов в index.php
+- [x] **reduktory.fprom.kz routing** (v0.10): /catalog/ → /reduktory/, удалённые продукты → 301 на серию, удалённые серии → 301 на тип
+
+## GSC 404 Audit (08.07.2026)
+- 3490 URL в GSC 404 — разбиты на группы:
+  - **reduktory.fprom.kz**: битые шаблонные URL (timestamp-ID в слагах), удалённые продукты
+  - **www.fprom.kz**: старые URL (редирект www→non-www работает, Google сам выведет)
+  - **fprom.kz CSS-URL**: 4 продукта — починены
+  - **fprom.kz битые товары**: удалённые/переименованные продукты
+- Ожидается CSV из GSC для полного анализа
 
 ## Приоритеты (дальше)
-1. **Регулярный ре-аудит** (Screaming Frog раз в месяц) для контроля
-2. **Контент-план** для статических страниц (/o-kompanii, /oplata, /faq)
-3. **Мониторинг позиций Google** по ключевым запросам
-4. **Включить gzip в Plesk** (nginx) — сейчас через PHP fallback
+1. **Экспорт CSV из GSC** — полный список 3490 URL для массовых 301
+2. **Регулярный ре-аудит** (Screaming Frog раз в месяц) для контроля
+3. **Контент-план** для статических страниц (/o-kompanii, /oplata, /faq)
+4. **Мониторинг позиций Google** по ключевым запросам
+5. **Включить gzip в Plesk** (nginx) — сейчас через PHP fallback
 
 ## Key Decisions
 - Редирект www в index.php (не nginx)
@@ -89,7 +102,10 @@
 ## Relevant Files
 - /fprom.kz/robots.txt
 - /fprom.kz/index.php — www→non-www + cat_redirect_map.php
-- /fprom.kz/cat_redirect_map.php — 301 на исправленные URL категорий
+- /fprom.kz/cat_redirect_map.php — 301 на исправленные URL категорий (95 маппингов)
+- /fprom.kz/product_redirect_map.php — 301 на исправленные URL продуктов (16 маппингов)
+- /reduktory.fprom.kz/server/index.js — Node.js роутинг (301 для /catalog/ + умные редиректы 404→серия/тип)
+- /reduktory.fprom.kz/data.json — 625 продуктов редукторов
 - /fprom.kz/Okay/Helpers/SiteMapHelper.php — исключения из sitemap
 - /fprom.kz/backup.php — бэкап БД
 - /fprom.kz/backups/ — директория с дампами
