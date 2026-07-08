@@ -84,6 +84,7 @@
 - [x] **Gzip включён** (v0.13): пользователем через Plesk
 - [x] **Title trim** (v0.13): |trim добавлен в head.tpl
 - [x] **Category descriptions** (v0.13): обновлены 483 категории с рекурсивным подсчётом товаров (БД обновлена)
+- [x] **Image caching** (v0.13): .htaccess +1yr immutable для статики, ResizeController — Cache-Control для ресайз-картинок
 - [x] **Анализ GSC CSV (999 URL)** (v0.11): корневая причина 404 — смена URL-формата CMS с /products/slug на /slug
 
 ## GSC 404 Audit (08.07.2026)
