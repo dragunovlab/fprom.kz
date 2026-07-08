@@ -76,6 +76,7 @@
 - [x] **reduktory.fprom.kz routing** (v0.10): /catalog/ → /reduktory/, удалённые продукты → 301 на серию, удалённые серии → 301 на тип
 - [x] **legacy_redirects.php** (v0.11): /products/* → 301 → /* и /catalog/* → 301 → /* (CMS перешёл на no_prefix URL)
 - [x] **hasMerchantReturnPolicy** (v0.12): JSON-LD Product — добавлена политика возврата (14 дней, бесплатно)
+- [x] **shippingDetails** (v0.12): JSON-LD Product — добавлена доставка (0-1 день обработка, 1-7 дней транзит, KZ, бесплатно)
 - [x] **Анализ GSC CSV (999 URL)** (v0.11): корневая причина 404 — смена URL-формата CMS с /products/slug на /slug
 
 ## GSC 404 Audit (08.07.2026)
