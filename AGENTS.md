@@ -80,6 +80,10 @@
 - [x] **36 H1 → 1 H1** (v0.13): исправлены дубли H1 на главной (категории в слайдере были H1, заменены на H2)
 - [x] **SEO H1 на главной** (v0.13): добавлен семантический H1 "Промышленное оборудование в Казахстане"
 - [x] **reduktory JSON-LD fix** (v0.13): getProductSchema обновлён — shippingDetails + hasMerchantReturnPolicy встроены
+- [x] **Cache-Control fix** (v0.13): no-store → private, max-age=3600 (session_cache_limiter)
+- [x] **Gzip включён** (v0.13): пользователем через Plesk
+- [x] **Title trim** (v0.13): |trim добавлен в head.tpl
+- [x] **Category descriptions** (v0.13): обновлены 483 категории с рекурсивным подсчётом товаров (БД обновлена)
 - [x] **Анализ GSC CSV (999 URL)** (v0.11): корневая причина 404 — смена URL-формата CMS с /products/slug на /slug
 
 ## GSC 404 Audit (08.07.2026)
